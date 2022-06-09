@@ -7,6 +7,7 @@ PACKAGE cpu_lib IS
 
     TYPE t_alu IS (alupass, andOp, orOp, xorOp, notOp, plus, alusub, inc, dec, zero);
     TYPE t_comp IS (eq, neq, gt, gte, lt, lte);
+    TYPE t_shift IS (shftpass, shl, shr, rotl, rotr);
 
 END cpu_lib;
 
